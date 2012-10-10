@@ -9,10 +9,13 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		
 		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 	</head>
 
 	<body>
-			<!-- This is the top bit with the image. 
+	<style>
+	
+	</style>		<!-- This is the top bit with the image. 
 		I wonder why there's no image tag here? -->
 		
 		<div class="whitebit"></div>
@@ -24,7 +27,7 @@
 			<div id="button">Refresh GPS: <div id="timer"></div></div>
 
 			<div class="area">
-				<div class="box box1"><div class="latitude"></div></div>
+				<div class="box box1"><div class="latitude">Blah</div></div>
 				<div class="box box2"><div class="longitude"></div></div>
 			</div>
 
@@ -43,6 +46,7 @@
 				document.getElementById('button').style.visibility = 'hidden';
 				return;
 			}
+
 
 		document.getElementById("timer").innerHTML = count + " secs";
 		}
